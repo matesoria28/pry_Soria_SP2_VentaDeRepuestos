@@ -7,7 +7,7 @@ namespace pry_Soria_SP2_VentaDeRepuestos
             InitializeComponent();
         }
 
-        string[,] matRespuesto = new string[4, 5];
+        string[,] matRespuesto = new string[100, 5];
 
         int indiceGrabar = 0;
 

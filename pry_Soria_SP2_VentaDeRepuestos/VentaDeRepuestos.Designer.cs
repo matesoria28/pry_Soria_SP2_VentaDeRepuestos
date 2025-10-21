@@ -206,7 +206,7 @@
             // lblOrigen2
             // 
             lblOrigen2.AutoSize = true;
-            lblOrigen2.Location = new Point(236, 53);
+            lblOrigen2.Location = new Point(218, 26);
             lblOrigen2.Name = "lblOrigen2";
             lblOrigen2.Size = new Size(43, 15);
             lblOrigen2.TabIndex = 4;
@@ -215,7 +215,7 @@
             // lblMarca2
             // 
             lblMarca2.AutoSize = true;
-            lblMarca2.Location = new Point(17, 53);
+            lblMarca2.Location = new Point(6, 26);
             lblMarca2.Name = "lblMarca2";
             lblMarca2.Size = new Size(40, 15);
             lblMarca2.TabIndex = 3;
@@ -224,7 +224,7 @@
             // cmbOrigenFiltro
             // 
             cmbOrigenFiltro.FormattingEnabled = true;
-            cmbOrigenFiltro.Location = new Point(285, 45);
+            cmbOrigenFiltro.Location = new Point(289, 23);
             cmbOrigenFiltro.Name = "cmbOrigenFiltro";
             cmbOrigenFiltro.Size = new Size(121, 23);
             cmbOrigenFiltro.TabIndex = 2;
@@ -232,7 +232,7 @@
             // cboMarcaFiltro
             // 
             cboMarcaFiltro.FormattingEnabled = true;
-            cboMarcaFiltro.Location = new Point(63, 45);
+            cboMarcaFiltro.Location = new Point(63, 23);
             cboMarcaFiltro.Name = "cboMarcaFiltro";
             cboMarcaFiltro.Size = new Size(121, 23);
             cboMarcaFiltro.TabIndex = 1;
@@ -241,7 +241,7 @@
             // 
             dgvDatos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDatos.Columns.AddRange(new DataGridViewColumn[] { colMarca, colOrigen, colNumero, colPrecio, colDescripcion });
-            dgvDatos.Location = new Point(6, 83);
+            dgvDatos.Location = new Point(6, 74);
             dgvDatos.Name = "dgvDatos";
             dgvDatos.Size = new Size(446, 252);
             dgvDatos.TabIndex = 0;
@@ -276,7 +276,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(564, 469);
+            ClientSize = new Size(504, 420);
             Controls.Add(Datos);
             Name = "VentaDeRepuestos";
             StartPosition = FormStartPosition.CenterScreen;
